@@ -30,9 +30,20 @@ Conceitos praticados:
 - Validação de entradas;
 - Tratamento de erros com `throw new Error()`.
 
-### 02 - Em desenvolvimento
+### 02 - Validação de Order Pool
 
-Script com foco na aplicação de TypeScript em um contexto relacionado a QA.
+Simulação do resultado de uma consulta de detalhes de uma ordem de saída para validar se a OS pode ser incluída em um Order Pool com base na quantidade planejada disponível.
+
+Conceitos praticados:
+
+- Interfaces;
+- Objetos e arrays de objetos;
+- Valores booleanos;
+- Arrow functions;
+- Método de array `some()`;
+- Estruturas condicionais com `if`, `else if` e `else`;
+- Validação de retorno vazio de uma consulta;
+- Aplicação de TypeScript em um cenário de validação de QA.
 
 ### 03 - Em desenvolvimento
 
@@ -44,3 +55,29 @@ Instale as dependências:
 
 ```bash
 npm install
+```
+
+Execute o exercício de Fibonacci:
+
+```bash
+npm run fibonacci
+```
+
+Execute a validação de Order Pool:
+
+```bash
+npm run order-pool
+```
+
+Para apenas compilar o projeto:
+
+```bash
+npm run build
+```
+
+## Tecnologias
+
+- TypeScript
+- Node.js
+- Git
+- GitHub
