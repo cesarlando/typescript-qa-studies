@@ -45,9 +45,20 @@ Conceitos praticados:
 - Validação de retorno vazio de uma consulta;
 - Aplicação de TypeScript em um cenário de validação de QA.
 
-### 03 - Em desenvolvimento
+### 03 - Validação de estoque para separação
 
-Script com foco na aplicação de TypeScript em um contexto relacionado a QA.
+Simulação de uma validação de estoque para verificar se um item possui quantidade disponível suficiente para atender uma solicitação de separação.
+
+Conceitos praticados:
+
+- Interfaces;
+- Objetos e arrays de objetos;
+- Método de array `find()`;
+- Arrow functions;
+- Comparação entre valores;
+- Estruturas condicionais com `if`, `else if` e `else`;
+- Tratamento de item não encontrado;
+- Aplicação de TypeScript em uma regra de estoque e separação.
 
 ## Como executar
 
@@ -68,6 +79,11 @@ Execute a validação de Order Pool:
 ```bash
 npm run order-pool
 ```
+
+Execute a validação de estoque:
+
+```bash
+npm run stock-validation
 
 Para apenas compilar o projeto:
 
