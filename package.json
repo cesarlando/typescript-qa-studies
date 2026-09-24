@@ -6,7 +6,8 @@
   "scripts": {
     "build": "tsc",
     "fibonacci": "npm run build && node dist/01-fibonacci.js",
-    "order-pool": "npm run build && node dist/02-order-pool-validation.js"
+    "order-pool": "npm run build && node dist/02-order-pool-validation.js",
+    "stock-validation": "npm run build && node dist/03-stock-validation.js"
   },
   "keywords": [],
   "author": "",
